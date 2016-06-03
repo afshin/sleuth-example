@@ -22,3 +22,9 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Mac
+.DS_Store
+
+article-service/article-service
+comment-service/comment-service
