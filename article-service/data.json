@@ -1,0 +1,72 @@
+[
+  {
+    "guid": "39231b95-0e78-4f98-9147-5022aa2f7e94",
+    "byline": "Philipp Oppermann",
+    "headline": "Writing an OS in Rust",
+    "url": "http://os.phil-opp.com/",
+    "time": 1445803084
+  },
+  {
+    "guid": "4e3f3d94-e6e5-40d6-9fb6-e3a14afce096",
+    "byline": "NASA",
+    "headline": "NASA Open APIs",
+    "url": "https://api.nasa.gov/index.html",
+    "time": 1449594348
+  },
+  {
+    "guid": "8ed2726a-ef66-415e-a34c-f715c7ccf12b",
+    "byline": "Matt Stancliff",
+    "headline": "How to C in 2016",
+    "url": "https://matt.sh/howto-c",
+    "time": 1452252876
+  },
+  {
+    "guid": "75e6d854-885f-44ae-9f03-0ee19db035c5",
+    "byline": "Michael Greshko",
+    "headline": "Stone Tools Point to Mysterious Neighbor of Flores 'Hobbit'",
+    "url": "http://news.nationalgeographic.com/2016/01/160113-stone-tool-sulawesi-hobbit-flores-archaeology/",
+    "time": 1452717728
+  },
+  {
+    "guid": "2137f999-6b17-4359-a05c-934b1357ea05",
+    "byline": "Felix Angell",
+    "headline": "Implementing a programming language in D: Lexical Analysis",
+    "url": "https://blog.felixangell.com/implementing-a-programming-language-in-d-part-1/",
+    "time": 1451328217
+  },
+  {
+    "guid": "06500da3-f9b0-4731-b0fa-fbc6cbe8c155",
+    "byline": "Brian Gallagher",
+    "headline": "Yoda Is Dead but Star Wars' Dubious Lessons Live On",
+    "url": "http://nautil.us/blog/yoda-is-dead-but-star-wars-dubious-lessons-live-on",
+    "time": 1452734432
+  },
+  {
+    "guid": "604034ba-8975-4f13-a25c-23a30e35f40a",
+    "byline": "Pedestrian",
+    "headline": "The Iranian Comfort Food",
+    "url": "http://roadsandkingdoms.com/2015/the-iranian-comfort-food/",
+    "time": 1436298678
+  },
+  {
+    "guid": "cb2aec9f-f1d7-4732-a9c0-26206a813855",
+    "byline": "Simply Embedded",
+    "headline": "UART Receive Buffering",
+    "url": "http://www.simplyembedded.org/tutorials/interrupt-free-ring-buffer/",
+    "time": 1434041973
+  },
+  {
+    "guid": "7315c9ce-ed50-4993-919f-10246c7e6e66",
+    "byline": "Fatih Arslan",
+    "headline": "Ten Useful Techniques in Go",
+    "url": "http://arslan.io/ten-useful-techniques-in-go",
+    "time": 1434330665
+  },
+  {
+    "guid": "049cd8fc-a66b-4a3d-956b-7c2ab5fb9c5d",
+    "byline": "Kristen Rasmussen",
+    "headline": "Wanting the Unwanted: Why Eat Weeds",
+    "url": "http://www.rootedfood.com/musings/2015/4/1/a-foraged-affair",
+    "time": 1428168580
+  }
+]
