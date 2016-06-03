@@ -9,9 +9,13 @@ import (
 
 	"github.com/afshin/sleuth-example/types"
 	"github.com/gorilla/mux"
+	"github.com/ursiform/sleuth"
 )
 
-var data = make(map[string][]*types.Comment) // Key is article GUID.
+var (
+	client *sleuth.Client
+	data   = make(map[string][]*types.Comment) // Key is article GUID.
+)
 
 func init() {
 	var err error
@@ -49,6 +53,12 @@ func handler(res http.ResponseWriter, req *http.Request) {
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/comments/{guid}", handler).Methods("GET")
+
+	// In the real world, the Interface field of the sleuth.Config object
+	// should be set so that all services are on the same subnet.
+	config := &sleuth.Config{Service: "comment-service", Handler: router}
+	client, _ = sleuth.New(config)
+
 	fmt.Println("ready...")
 	http.ListenAndServe(":9871", router)
 }
